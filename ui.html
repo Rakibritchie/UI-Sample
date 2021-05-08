@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<title>UI test</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+/*body {font-family: "Lato", sans-serif;} */
+body{background-color: rgb(229, 234, 238);}
+.sidebar {
+ 
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F0F8FF;
+  overflow-x: hidden;
+  padding-top: 16px;
+  box-shadow: 10px 1px 11px -4px rgba(105,94,94,0.83);
+-webkit-box-shadow: 10px 1px 11px -4px rgba(105,94,94,0.83);
+-moz-box-shadow: 10px 1px 11px -4px rgba(105,94,94,0.83);
+}
+
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.video {
+  margin-left: 160px; 
+  padding: 130px 40px 30px 15px;
+  color: #6d6161;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.cat_icon {
+    padding: 16px 18px 10px 20px;
+    text-align: center;
+    color: #818181;
+    font-size: 1em;
+}
+.cat_text {
+    font-size: 20px;
+    text-align: center;
+    color: #818181;
+}
+
+.url input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 500px;
+  font-size: 17px;
+  cursor: pointer;
+} 
+.or{
+ 
+        margin-right: 30%;
+  
+  
+  font-size: 20px; */
+}
+.upload{
+  text-align: center;
+  height: 200px;
+  width:200px;
+  background-color: white;
+  margin-right: 500px;
+  
+}
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+    
+     <div class="cat_icon">
+        <i class="fas fa-school fa-4x"></i>
+     </div>
+     
+    
+    
+
+      <div class="cat_icon">
+        <i class="fas fa-user-graduate fa-lg"></i>
+      </div>
+      <div class="cat_text">
+           Student
+      </div>
+ 
+  
+
+      <div class="cat_icon">
+        <i class="fas fa-book-reader fa-lg"></i>
+      </div>
+      <div class="cat_text">
+           Lesson Plan
+      </div>
+  
+  
+
+     <div class="cat_icon">
+        <i class="fas fa-cogs fa-lg"></i>
+     </div>
+     <div class="cat_text">
+           Setting
+     </div>
+  
+ </div>
+
+<div class="video">
+  <i class="fas fa-play fa-rotate-180 fa-xs"></i>
+  <text style="font-size: 20px;"><b>Videos</b></text>
+</div>
+<div class="container">
+  <div class="url">
+    <input type="text" placeholder="Insert URL here..">
+    
+  </div>
+  <div class="or">
+    <centre><p>or</p></centre>
+  </div>
+    <div class="upload">
+     <h3>Upload</h3>
+      
+    </div>
+</div>
+
+</body>
+</html> 
